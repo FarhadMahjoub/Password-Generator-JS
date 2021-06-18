@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0-canary.14/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Password Generator</title>
+</head>
+<body class="bg-dark">
+    
+
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="form bg-light p-3 rounded ">
+          <header><h6 class="text-success text-center header-title mb-4">برنامه سازنده رمز</h6></header>
+            <p class="shadow-sm border-2 p-2 border-radius rounded-1 col-12 text-center text-muted" id="result" ></p>
+           
+            <span class="form-check my-2"><lable class="form-check-label">حروف بزرگ</lable><input class="form-check-input shadow-sm" type="checkbox" name="upper" id="Uppercase" checked></span>
+            <span class="form-check my-2"><lable class="form-check-label">حروف کوچک</lable><input class="form-check-input shadow-sm" type="checkbox" name="lower" id="Lowercase" checked></span>
+            <span class="form-check my-2"><lable class="form-check-label">سمبل ها</lable><input class="form-check-input shadow-sm" type="checkbox" name="symbol" id="Symbol" checked></span>
+            <span class="form-check my-2"><input class="form-check-input shadow-sm" type="checkbox" name="number" id="Number" checked><lable class="form-check-label">اعداد</lable></span>
+            <span class="d-flex align-items-center my-2 justify-content-between"><lable>طول رمز</lable><input class="border-1 shadow-sm col-3 px-1 rounded-1"  value="16" type="number" placeholder="16" name="Length" id="Length"></span>
+            <button id="Submit" class="btn btn-success col-12 my-2 shadow-lg">ساختن رمز</button>
+
+          <footer><p class="text-center text-muted createdBy">طراحی و ساخته شده توسط  <strong><a class="text-success" href="https://www.instagram.com/farhadmahjoub">فرهاد محجوب</a></strong></p></footer>
+        </div>
+      </div>
+        
+
+       
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

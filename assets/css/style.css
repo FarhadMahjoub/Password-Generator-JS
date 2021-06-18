@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../font/Vazir.woff") format("woff");
+
+}
+body
+{
+    font-family: "Vazir";
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+}
+.createdBy{
+    font-size: 12px;
+}
+.header-title{
+    font-weight: bold;
+}
